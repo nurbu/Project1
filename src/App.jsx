@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import pick from './assets/pick.png';
-import './App.css';
+import './css/app.css'
 import Game from './components/Boardgame';
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
       <h3>Choose Whichever you would like</h3>
 
       {/* Strategy Games */}
-      <table>
+      <table className='tablething'>
         <thead><tr><th>Strategy Games</th></tr></thead>
         <tbody>
           <tr>
